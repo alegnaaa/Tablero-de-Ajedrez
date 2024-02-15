@@ -1,0 +1,34 @@
+
+@font-face {
+    font-family: tangobold;
+    src: url(texto/TangoSans_Bold.ttf) format('truetype');
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: tangobold;
+    font-size: 80px;
+
+}
+body {
+    background-color: rgb(228, 205, 255);
+}
+
+.negro {
+    background-color: black;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blanco {
+    background-color: rgb(255, 255, 255);
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
